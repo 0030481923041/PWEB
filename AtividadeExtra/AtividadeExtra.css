@@ -1,0 +1,51 @@
+body {
+	font: 150% Arial, Helvetica, sans-serif;
+}
+
+#Conteudo {
+	width: 400px;
+	float: left;
+    background: #ffffff;
+}
+
+@media screen and (max-width: 1920px) {
+	
+	#Conteudo {
+        width: 65%;
+        background-color: gold;
+}
+
+@media screen and (max-width: 1366px) {
+	
+	#Conteudo {
+        width: 65%;
+        background-color: indigo;
+}
+
+@media screen and (max-width: 1080px) {
+	
+	#Conteudo {
+        width: 65%;
+        background-color: darkred;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	#Conteudo {
+        width: 65%;
+        background-color: hotpink;
+}
+
+@media screen and (max-width: 768px) {
+	
+	#Conteudo {
+        width: 65%;
+        background-color: orangered;
+}
+
+@media screen and (max-width: 420px) {
+	
+	#Conteudo {
+        width: 65%;
+        background-color: dimgray;
+}
